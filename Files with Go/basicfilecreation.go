@@ -14,8 +14,8 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println(File)
-	log.Println(File)
+	fmt.Println("Created the File was", File.Name())
+
 	File.Close()
 
 }
